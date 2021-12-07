@@ -1,0 +1,496 @@
+/* 
+font-family: 'Lato', sans-serif;
+font-family: 'Roboto', sans-serif; */
+
+/* google-fonts */
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,400&family=Roboto:wght@100;300;400;500;700;900&display=swap');
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+
+.section-padding-top {
+    padding-top: 100px;
+}
+
+
+.section-padding-bottom {
+    padding-bottom: 100px;
+}
+
+
+
+.content-title {
+    color: #f15a28;
+
+}
+
+
+
+/*----------
+ header-css
+ ----------
+  */
+#header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.ashora-header-all {
+    line-height: 25px;
+    padding-bottom: 18px;
+
+
+}
+
+.ashora-header-all .header-wrap-all {
+    background-image: url(../img/Ashora_Online_Bazar.jpg);
+    padding-left: 871px;
+
+}
+
+.ashora-header-all .header-wrap-all a {
+    text-decoration: none;
+    color: #f6f6f6;
+    margin-left: 30px;
+    font-size: 12px;
+    text-transform: uppercase;
+    text-decoration: none;
+
+}
+
+.ashora-header-all .header-wrap-all a:first-child {
+    color: #f6f6f6;
+    font-weight: 700;
+    text-decoration: none;
+}
+
+.ashora-header-all .header-wrap-all a:hover {
+    border-bottom: 1px solid #1ea3de;
+    color: #1ea3de;
+    transition: all 0.2 ease;
+    text-decoration: none;
+
+}
+
+.logo-header {
+    line-height: 20px;
+    padding: 16px 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo-header .logo {
+    display: flex;
+    padding: 5px 53px;
+    float: left;
+}
+
+.logo img {
+    width: 150px;
+    height: 55px;
+}
+
+
+/* main-search-bar-css */
+.logo-header .main-search-form {
+    width: 60%;
+    float: left;
+    padding-left: 100px;
+}
+
+.fix {
+    overflow: hidden;
+}
+
+.logo-header .search-box-view .email {
+    position: relative;
+    width: calc(100% - 50px);
+    float: left;
+    height: 38px;
+    font-size: 11px;
+    color: #333;
+    background: #f6f6f6;
+    line-height: 45px;
+    font-weight: 600;
+    border: none;
+    outline: none;
+
+}
+
+.logo-header .search-box-view .email::placeholder {
+    text-indent: 15px;
+    font-weight: lighter;
+    font-size: 15px;
+
+}
+
+.container img {
+    max-width: 100%;
+}
+
+.logo-header .search-box-view .submit {
+    width: 38px;
+    font-size: 16px;
+    font-weight: 400;
+    float: left;
+    background: #1ea3de;
+    color: #f6f6f6;
+    height: 38px;
+    line-height: 45px;
+    text-transform: capitalize;
+    padding-right: 1px;
+    border: none;
+    transition: all 0.3s ease;
+    position: relative;
+}
+
+.logo-header .search-box-view .email .submit i {
+    color: #fff;
+    /* margin-left: 10px; */
+    font-size: 18px;
+    position: absolute;
+    top: 2px;
+}
+
+i.fas.fa-search {
+    position: relative;
+    top: -3px;
+}
+
+.ashora-header-all .ashora-app {
+    float: left;
+    display: inline-block;
+}
+
+
+.ashora-header-all .ashora-app i {
+    font-size: 16px;
+    /* float: left; */
+    margin-left: 10px;
+    /* overflow: hidden; */
+    height: -2px;
+    /* margin-bottom: 0px; */
+    /* text-align: center; */
+    display: inline-table;
+    color: #333;
+    position: relative;
+    top: 5px;
+}
+
+/* all-categories */
+
+input#Price {
+    top: 192px;
+    width: 262px;
+    left: 54px;
+    position: absolute;
+    height: 2px !important;
+    border-radius: 0 !important;
+    background-color: #292764;
+}
+
+span.categ {
+    color: #564b47e0;
+}
+
+select#orderby {
+    color: #888;
+    border: 2px solid #e1e1e1;
+    height: 30px;
+    width: 170px;
+
+}
+
+select#number {
+    padding: 2px 10px;
+    border: 2px solid #e1e1e1;
+    height: 30px;
+    color: #888;
+}
+
+.all-categories a {
+    text-decoration: none;
+    color: #888888;
+
+}
+
+span.delimeter i {
+    color: #888888;
+}
+
+
+
+h5.card-title {
+    color: #686868;
+    font-size: 14px;
+}
+
+
+.product-title {
+    font-size: 24px;
+    color: #0d6efd;
+    font-weight: 500;
+
+}
+
+.product-color {
+    font-size: 24px;
+    color: rgb(167, 167, 167);
+    font-weight: 500;
+
+}
+
+
+span.price {
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    color: #282864;
+    font-weight: 700;
+    /* position: relative;
+    right: 10px; */
+}
+
+.rating {
+    color: rgb(255, 224, 0);
+    /* position: absolute;
+    right: 4px; */
+}
+
+
+
+/* .req-btn a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    border-radius: 5px solid;
+    background: blue;
+    text-decoration: none;
+    color: #fff;
+} */
+
+
+
+.btn {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.req-button {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 12px 24px;
+    color: #fff;
+    background-color: #0d6efd;
+    text-decoration: none;
+    border-radius: 5px;
+    border: 2px solid #008CBA;
+}
+
+
+a.req-button {
+    color: #ffff;
+}
+
+a.req-button:hover {
+    background: #282864;
+    transform: translateY(0px);
+    color: #fff;
+    transition: 0.3s ease-out;
+    border: 2px solid #282864;
+    ;
+}
+
+.truck,
+.phone {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+i.fas.fa-truck,
+i.fas.fa-phone-alt {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50%;
+    background: #c62828;
+    height: 50px;
+    color: #ffff;
+    width: 50px;
+}
+
+.content {
+    position: relative;
+    left: 40px;
+    top: 12px;
+}
+
+h2.content-title {
+    font-size: 24px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.content p {
+    color: black;
+}
+
+
+
+.col.box-1 {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    padding: 30px;
+    padding-bottom: 10px;
+}
+
+.col.box-2 {
+    width: 300px;
+    height: 250px;
+    border: 1px solid #e1e1e1;
+    box-sizing: border-box;
+    padding: 30px;
+}
+
+
+/* .merchandise {
+    background-image: url(../img/car-ac/Bugatti-Chiron-Pur-Sport-25.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+} */
+
+
+
+/* footer-css */
+
+footer.footer-light {
+    background: #262362;
+    background-color: #262362;
+}
+
+
+.footer-title {
+    position: relative;
+    left: 151px;
+}
+
+.line {
+    position: relative;
+    left: 112px;
+    top: 9px;
+    border: 1px solid #393939;
+}
+
+
+.line-1 {
+    position: relative;
+    left: 197px;
+    top: 11px;
+    border: 1px solid #393939;
+}
+
+.footer-title h4,
+h2,
+p,
+h6,
+h3 {
+    /* display: flex;
+    justify-content: center; */
+    color: #fff;
+    /* align-items: center; */
+
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+
+
+
+.footer-details a {
+    color: #ffff;
+    text-decoration: none;
+}
+
+
+
+.footer-icon i {
+    color: #fff;
+    position: relative;
+    top: 24px;
+    margin-right: 9px;
+    /* font-size: small; */
+}
+
+.footer-title h3 {
+    position: relative;
+    left: 46px;
+}
+
+
+.footer-title h4 {
+    position: relative;
+    left: -41px;
+
+
+}
+
+.footer-details {
+    position: relative;
+    left: 161px;
+    top: 30px;
+}
+
+.footer-details p {
+    position: absolute;
+    left: -50px;
+}
+
+.footer-title h2 {
+    position: absolute;
+    right: -45px;
+}
+
+.footer-details a {
+    position: relative;
+    right: -37px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+}
+
+.footer-details h6 {
+    position: relative;
+    left: 82px;
+    top: 8px;
+}
+
+.footer-details img {
+    position: relative;
+    top: 43px;
+    left: 66px;
+}
+
+.footer-end {
+    background-color: #222;
+}
+
+.footer-end p {
+    color: #fff;
+    left: 951px;
+    position: relative;
+}
